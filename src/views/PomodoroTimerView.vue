@@ -1,5 +1,7 @@
 <template>
-  <timer />
+  <div class="bg-red-800 opacity-100">
+    <timer />
+  </div>
 </template>
 
 <script setup lang="ts">

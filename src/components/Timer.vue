@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ formattedTime }}</p>
+    <p class="font-clock">{{ formattedTime }}</p>
     <fwb-button @click="startStopTimer">
       {{ timerButtonText }}
     </fwb-button>

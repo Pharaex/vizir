@@ -7,7 +7,12 @@ export default {
     "node_modules/flowbite/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        clock: ["Orbitron"],
+      },
+    },
   },
   plugins: [require("flowbite/plugin")],
+  theme: {},
 };
