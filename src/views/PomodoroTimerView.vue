@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-red-800 opacity-100">
-    <timer />
-  </div>
+  <TimerDisplay />
+  <TimerModal />
 </template>
-
 <script setup lang="ts">
-import Timer from "../components/Timer.vue";
+import TimerDisplay from "../components/TimerDisplay.vue";
+import TimerModal from "../components/TimerModal.vue";
 </script>
+<style></style>
